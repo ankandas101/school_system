@@ -1,0 +1,39 @@
+# Application cache and logs
+application/cache/*
+application/logs/*
+!application/logs/.htaccess
+
+# Uploads (can be large)
+uploads/db_backup/*
+uploads/db_temp/*
+uploads/csv/*
+uploads/app_image/*
+
+# System files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Composer
+vendor/
+composer.lock
+
+# Environment files
+.env
+.env.local
+
+# Node modules (if applicable)
+node_modules/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
