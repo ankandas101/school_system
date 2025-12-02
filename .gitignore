@@ -3,6 +3,9 @@ application/cache/*
 application/logs/*
 !application/logs/.htaccess
 
+# Database Connections 
+application/config/database.php
+
 # Uploads (can be large)
 uploads/db_backup/*
 uploads/db_temp/*
