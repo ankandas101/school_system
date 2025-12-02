@@ -107,6 +107,12 @@
                         </ul>
                     </li>
                     <?php } } ?>
+                    <!-- Website Content -->
+                    <li>
+                        <a href="https://school.com" target="_blank">
+                            <i class="fas fa-globe"></i><span>Website Content</span>
+                        </a>
+                    </li>
                     <?php 
                     if (is_superadmin_loggedin()) : ?>
                     <!-- branch -->
@@ -115,7 +121,8 @@
                             <i class="icons icon-directions"></i><span><?=translate('branch')?></span>
                         </a>
                     </li>
-                    <?php endif; 
+
+                    <?php endif;
                     $saasExisting = $this->app_lib->isExistingAddon('saas');
                     if ($saasExisting): ?>
                     <!-- school subscription (SaaS)  -->
@@ -137,6 +144,7 @@
                             get_permission('frontend_faq', 'is_view')) {
                             ?>
                     <!-- Patient Details -->
+
                     <li class="nav-parent <?php if ($main_menu == 'frontend') echo 'nav-expanded nav-active'; ?>">
                         <a><i class="fas fa-globe"></i><span><?php echo translate('frontend'); ?></span></a>
                         <ul class="nav nav-children">
