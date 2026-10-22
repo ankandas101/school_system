@@ -2,11 +2,11 @@
 defined('BASEPATH') or exit('No direct script access allowed');
 
 /**
- * @package : Ramom school management system
+ * @package : Biddaloy PRO
  * @version : 6.5
- * @developed by : RamomCoder
+ * @developed by : Ankan Das
  * @support : ramomcoder@yahoo.com
- * @author url : http://codecanyon.net/user/RamomCoder
+ * @author url :  ankandas.me
  * @filename : Attendance_period.php
  * @copyright : Reserved RamomCoder Team
  */
