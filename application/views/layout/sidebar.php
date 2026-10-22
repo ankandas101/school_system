@@ -109,8 +109,8 @@
                     <?php } } ?>
                     <!-- Website Content -->
                     <li>
-                        <a href="https://school.com" target="_blank">
-                            <i class="fas fa-globe"></i><span>Website Content</span>
+                        <a href="https://sngdc.edu.bd" target="_blank">
+                            <i class="fas fa-globe"></i><span>Website Edit</span>
                         </a>
                     </li>
                     <?php 
