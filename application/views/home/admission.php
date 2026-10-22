@@ -567,12 +567,12 @@
         <div class="modal-content">
             <?php echo form_open('home/checkAdmissionStatus', array('class' => 'form-horizontal frm-submit-data')); ?>
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Check Addmision Status</h5>
+                <h5 class="modal-title" id="exampleModalLabel">Check Status</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
                 <div class="form-group mt-3 mb-3">
-                    <label>Enter Your Reference Number <span class="required">*</span></label>
+                    <label>Enter Your Reference Number to search <span class="required">*</span></label>
                     <input type="text" class="form-control" name="refno" id="refno" autocomplete="off">
                     <span class="error"></span>
                 </div>
